@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="663" height="663" viewBox="0 0 663 663">
+  <defs>
+    <filter id="Rectangle_68" x="-29" y="-29" width="741" height="741" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_67" x="51.886" y="51.886" width="579.228" height="579.228" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-opacity="0.769"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-black-friday">
+      <rect width="663" height="663"/>
+    </clipPath>
+  </defs>
+  <g id="black-friday" clip-path="url(#clip-black-friday)">
+    <rect width="663" height="663" fill="rgba(255,255,255,0)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_68)">
+      <rect id="Rectangle_68-2" data-name="Rectangle 68" width="468.812" height="468.812" transform="translate(0 331.5) rotate(-45)" fill="#15202b"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_67)">
+      <rect id="Rectangle_67-2" data-name="Rectangle 67" width="354.422" height="354.422" transform="translate(80.89 331.5) rotate(-45)" fill="#15202b"/>
+    </g>
+    <text id="PROMOCIONES_DEL" data-name="PROMOCIONES DEL" transform="translate(193.267 358.986) rotate(-45)" fill="#00d3ff" font-size="12" font-family="Montserrat-Regular, Montserrat" letter-spacing="0.634em"><tspan x="0" y="0">PROMOCIONES DEL</tspan></text>
+    <text id="BLACK_FRIDAY" data-name="BLACK
+FRIDAY" transform="translate(240.664 411.773) rotate(-45)" fill="#fff" font-size="68" font-family="ZillaSlab-Bold, Zilla Slab" font-weight="700"><tspan letter-spacing="0.081em"><tspan x="0" y="0">BLACK</tspan></tspan><tspan fill="#00d3ff"><tspan x="0" y="79">FRIDAY</tspan></tspan></text>
+  </g>
+</svg>

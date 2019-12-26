@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="95" viewBox="0 0 120 95">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb33d1"/>
+      <stop offset="1" stop-color="#b102d2"/>
+    </linearGradient>
+    <filter id="Rectangle_60" x="-28.693" y="-60.56" width="249.12" height="249.12" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur"/>
+      <feFlood flood-opacity="0.059"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_61" x="17.562" y="-15.305" width="158.61" height="158.61" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="13" result="blur-2"/>
+      <feFlood flood-opacity="0.349"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-ornament-footer">
+      <rect width="120" height="95"/>
+    </clipPath>
+  </defs>
+  <g id="ornament-footer" clip-path="url(#clip-ornament-footer)">
+    <rect width="120" height="95" fill="rgba(255,255,255,0)"/>
+    <g id="Group_25" data-name="Group 25" transform="translate(-1786 -3201)">
+      <g transform="matrix(1, 0, 0, 1, 1786, 3201)" filter="url(#Rectangle_60)">
+        <rect id="Rectangle_60-2" data-name="Rectangle 60" width="121" height="121" transform="translate(0.31 51) rotate(-45)" fill="url(#linear-gradient)"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 1786, 3201)" filter="url(#Rectangle_61)">
+        <rect id="Rectangle_61-2" data-name="Rectangle 61" width="57" height="57" transform="translate(46.56 51) rotate(-45)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>
